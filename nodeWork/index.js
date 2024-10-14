@@ -17,7 +17,7 @@ process.nextTick(()=>{
 setTimeout(()=>{
     console.log("timeOUT");
     
-})
+},3000)
 setImmediate(()=>{
     console.log("immedeate");
     
